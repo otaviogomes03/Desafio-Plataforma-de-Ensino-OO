@@ -6,6 +6,7 @@ public class Video extends Lesson {
 	private Integer seconds;
 	
 	public Video() {
+		super();
 	}
 
 	public Video(String title, String url, Integer seconds) {
