@@ -6,6 +6,7 @@ public class Task extends Lesson {
 	private Integer questionCount;
 	
 	public Task() {
+		super();
 	}
 
 	public Task(String title, String description, Integer questionCount) {
